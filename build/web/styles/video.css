@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-mei-2014, 9:36:39
+    Author     : kamil.laga
+*/
+body {
+    background: #eaf9f9;
+    font-family: Berlin Sans FB;
+}
+.wikkel {
+    width:1000px;
+    height: 1200px;
+    margin: 0 auto;
+    background: #F3EFE0;
+    padding: 10px;
+}
+
+/* genremenu */
+.genremenu {
+    width: 500px;
+    list-style: none;
+    margin: 0 auto 5px;
+    padding: 0 0 0 0;
+    display: block;
+    text-align: center;
+    background-color: #F3EFE0;  
+}
+ul.genremenu {
+    background: #F3EFE0;
+}
+li.genremenu {
+    border: 2px solid black;
+    float:left;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    
+}
+a.genremenu {
+    display:block;
+    padding: 0;
+    background: #9EAEB3;
+    color:black;
+    text-decoration: none;
+    font-family: Berlin Sans FB; 
+    float:left;
+    font-size: 150%;
+}
+
+a:visited .genremenu {
+    color:black;
+}
+
+a:hover.genremenu {
+    background-color: #eaf9f9;
+}
+/* einde genremenu */ 
+
+/* random */
+.fout { color: red;}
+div .reservaties {
+    width:1000px;
+    text-align: center;
+    background: #F3EFE0;
+}
+
+a.klantmenu {
+    text-decoration:none;
+    color:black;
+    display:block;
+}
+
+.klantmenu a:hover  {
+    background-color: #cccaef;
+}
+
+/* einde random */
+ 
+ 
+/* menu */
+#menu {
+    width:1000px;
+    float:left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style:none;
+    
+}
+
+#menu li {
+    float:left;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin-top: -5px;
+    border-collapse: collapse;
+    
+}
+
+#menu a {
+    display:block;
+    padding: 7px;
+    background: #F3EFE0;
+    text-decoration: none;
+    font-family: Berlin Sans FB; 
+    font-size: 150%;
+    text-align: center;
+}
+
+#menu a:visited {
+    color:black;
+}
+
+#menu a:hover {
+    background-color: #E6E6DC;
+}
+
+.menuheader {
+    width: 1000px;
+    height: 383px;
+    
+}
+/* einde menu */
+
+/* tabelopmaak */
+table.Tabel {
+  padding: 5px;
+  text-align: center;
+  vertical-align:top;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.Tabel th {
+    background-color: #999999;
+    color:whitesmoke;
+    border: 1px solid black;
+    padding:5px;
+
+}
+
+table.Tabel td {
+    border: 1px solid black;
+    text-align: center;
+    padding:5px;
+}
+
+td.rechts {
+    text-align: right;
+}
+
+tr:nth-child(odd) {
+    background-color: #d3dfdf;
+}
+
+/* einde tabel opmaak */
